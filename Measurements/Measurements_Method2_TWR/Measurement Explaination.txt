@@ -1,0 +1,2 @@
+Target at the point of origin [0, 0, 0] --> [x, y, z]
+Measurement according the description in subsection "Measurement Concept" of paper "Quadcopter Indoor Positioning System".

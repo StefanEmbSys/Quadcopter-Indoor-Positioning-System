@@ -1,0 +1,10 @@
+Target at the point of origin [0, 0, 0] --> [x, y, z]
+After some measurements, shift of the target to [-0.40, -0.40, 0]
+After some measurements, shift of the target to [-1.30, -1.30, 0]
+
+What is visible?
+3x Zero Offset calculation. For the position [0, 0, 0] a correction value is determined.
+Measurements at [0, 0, 0] are pretty accurate. Nevertheless, the distance measurement is instabile.
+As not all distance measurements are accurate, not all positions can be calculated resulting in a "nan" output.
+At the middle of the measurement "Console_Output4" it is visible, that the positioning gets very inaccurate.
+Neither the distance measurement, not the positioning are correct and have a very high error. 
