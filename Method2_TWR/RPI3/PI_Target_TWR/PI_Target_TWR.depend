@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1547740581 source:/home/pi/Documents/embSysProject/PI_Target_TWR/main.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdint.h>
+	<wiringPi.h>
+	<wiringSerial.h>
+	<zmq.h>
+	<assert.h>
+

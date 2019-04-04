@@ -1,0 +1,57 @@
+File description:
+Below, all existing files in ATLAS C++ SW are listed. A description about the content
+of the corresponding file is given to give a general overview of the overal architecture.
+
+--------------------------------------------------------------------------------------------
+	> atlas_scr
+		- main.cpp:		Main program for ATLAS system which is executed for the actual functionality
+		- atlas_types:	Several types used in the below classes and functions.
+
+
+	> atlas_scr::coordinate_system --> seems to be unused.
+		- C++ Lib
+	
+	
+	> atlas_scr::config
+		- config.h: 	definition of class Config
+		- config.cpp: 	implementation of class and class functions from config.h
+		
+		
+	> atlas_scr::parser
+		- parser.h: 	definition of classes Parser, ClockModel and ClockCorrection
+		- parser.cpp: 	implementation of class and class functions from parser.h
+			
+			
+	> atlas_scr::logger
+		- logger.h: 	definition of class Logger
+		- logger.cpp: 	implementation of class and class functions from logger.h
+		
+		
+	> atlas_scr::reporter
+		- reporter.h: 	definition of class Reporter
+		- reporter.cpp: implementation of class and class functions from reporter.h
+
+
+	> atlas_scr::tdoa
+		- tdoa.h: 		definition of class PositionerTDOA (EKF functionalities)
+		- tdoa.cpp: 	implementation of class and class functions from tdoa.h
+		
+		
+	> docopt
+		- C++ Lib providing functions and structures (OSS used by ATLAS project)
+		
+	
+	> protocol::protocol
+		- protocol.h: 				definition of class Protocol
+		- protocol.cpp: 			implementation of class and class functions from protocol.h (Details commented in C++ file directly)
+		- protocol_structures.h: 	Structures for protocol handling
+		- protocol_commands.cpp:	Lib functions for protocol handling
+		
+
+	> serial::serial
+		- serial.h: 	definition of class Serial
+		- serial.cpp: 	implementation of class and class functions from serial.h (Details commented in C++ file directly)
+		
+		
+	> nodeconf_src
+		- main.cpp:		Main program for configuring nodes in the atlas system.

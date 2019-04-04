@@ -1,0 +1,88 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="UART_continous_TxAndRx" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="BaseStation" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="UART_continous_TxAndRx" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="BaseStation" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="UART_continous_TxAndRx" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="BaseStation" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="UART_continous_TxAndRx" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="BaseStation" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="BaseStation"/>
+  <ProjectSessionItem path="BaseStation;BaseStation"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;Application"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;Config"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;Decadriver"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;Freertos"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;Internal Files"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;nRF_Drivers"/>
+  <ProjectSessionItem path="BaseStation;BaseStation;nRF_Libraries"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="UART_continous_TxAndRx" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="BaseStation" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="UART_continous_TxAndRx" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="BaseStation" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="UART_continous_TxAndRx" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="BaseStation" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="UART_continous_TxAndRx" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="BaseStation" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint numelements="33" expression="rx_uwb_msg" evalMode="2" name="rx_uwb_msg" radix="16" linenumber="202" filename="../application/basestation.c" list=""/>
+   <Watchpoint numelements="33" expression="buffer_uart" evalMode="2" name="buffer_uart" radix="-1" linenumber="202" filename="../application/basestation.c" list=""/>
+   <Watchpoint numelements="8" expression="eui" evalMode="2" name="eui" radix="-1" linenumber="12" filename="../application/basestation.c" list=""/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="30" useTextEdit="1" useBinaryEdit="0" left="0" path="../application/main.c" debugPath="../application/main.c" selected="0" top="24" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="41" y="141" useTextEdit="1" useBinaryEdit="0" left="0" path="../application/basestation.c" debugPath="../application/basestation.c" selected="1" top="149" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="14" useTextEdit="1" useBinaryEdit="0" left="0" path="../application/basestation.h" debugPath="../application/basestation.h" selected="0" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1644" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/deca_driver/deca_device_api.h" debugPath="../../../lib/deca_driver/deca_device_api.h" selected="0" top="1636" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="203" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/nRF5_SDK_14.2.0/components/libraries/uart/app_uart_fifo.c" debugPath="../../../lib/nRF5_SDK_14.2.0/components/libraries/uart/app_uart_fifo.c" selected="0" top="195" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="104" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/nRF5_SDK_14.2.0/components/toolchain/ses/ses_nrf52_startup.s" debugPath="../../../lib/nRF5_SDK_14.2.0/components/toolchain/ses/ses_nrf52_startup.s" selected="0" top="95" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="113" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/nRF5_SDK_14.2.0/components/libraries/fifo/app_fifo.c" debugPath="../../../lib/nRF5_SDK_14.2.0/components/libraries/fifo/app_fifo.c" selected="0" top="105" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="143" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/deca_driver/port/port_platform.c" debugPath="../../../lib/deca_driver/port/port_platform.c" selected="0" top="114" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="392" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/nRF5_SDK_14.2.0/components/drivers_nrf/spi_master/nrf_drv_spi.c" debugPath="../../../lib/nRF5_SDK_14.2.0/components/drivers_nrf/spi_master/nrf_drv_spi.c" selected="0" top="377" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="318" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_spi.h" debugPath="../../../lib/nRF5_SDK_14.2.0/components/drivers_nrf/hal/nrf_spi.h" selected="0" top="304" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1019" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/deca_driver/deca_device.c" debugPath="../../../lib/deca_driver/deca_device.c" selected="0" top="1004" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="276" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../lib/deca_driver/deca_regs.h" debugPath="../../../lib/deca_driver/deca_regs.h" selected="0" top="268" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="BaseStation" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="nrf52832_xxaa" debugSearchFileMap="" fileDialogInitialDirectory="C:/work/MasterThesis/SW_Development/asw/BaseStation/application" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

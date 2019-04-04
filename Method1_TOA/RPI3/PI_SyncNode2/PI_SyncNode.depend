@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1541668291 source:/home/pi/Documents/embSysProject/PI_SyncNode/main.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdint.h>
+	<wiringPi.h>
+	<wiringSerial.h>
+	<zmq.h>
+	<assert.h>
+
+1542817991 source:/home/pi/Documents/embSysProject/PI_SyncNode2/main.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<stdlib.h>
+	<stdbool.h>
+	<stdint.h>
+	<wiringPi.h>
+	<wiringSerial.h>
+	<zmq.h>
+	<assert.h>
+

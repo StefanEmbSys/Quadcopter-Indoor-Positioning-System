@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ATLAS_RPI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/atlas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ATLAS_Fedora" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="atlas_comm_conf.h" />
+		<Unit filename="atlas_src/atlas_types.h" />
+		<Unit filename="atlas_src/config.cpp" />
+		<Unit filename="atlas_src/config.h" />
+		<Unit filename="atlas_src/coordinate_systems.cpp" />
+		<Unit filename="atlas_src/coordinate_systems.h" />
+		<Unit filename="atlas_src/logger.cpp" />
+		<Unit filename="atlas_src/logger.h" />
+		<Unit filename="atlas_src/main.cpp" />
+		<Unit filename="atlas_src/parser.cpp" />
+		<Unit filename="atlas_src/parser.h" />
+		<Unit filename="atlas_src/reporter.cpp" />
+		<Unit filename="atlas_src/reporter.h" />
+		<Unit filename="atlas_src/tdoa.cpp" />
+		<Unit filename="atlas_src/tdoa.h" />
+		<Unit filename="atlas_src/toa.cpp" />
+		<Unit filename="atlas_src/toa.h" />
+		<Unit filename="docopt/docopt.cpp" />
+		<Unit filename="docopt/docopt.h" />
+		<Unit filename="docopt/docopt_private.h" />
+		<Unit filename="docopt/docopt_util.h" />
+		<Unit filename="docopt/docopt_value.h" />
+		<Unit filename="ethernet/ethernet.cpp" />
+		<Unit filename="ethernet/ethernet.h" />
+		<Unit filename="protocol/protocol.cpp" />
+		<Unit filename="protocol/protocol.h" />
+		<Unit filename="protocol/protocol_commands.cpp" />
+		<Unit filename="protocol/protocol_structures.h" />
+		<Unit filename="serial/serial.cpp" />
+		<Unit filename="serial/serial.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

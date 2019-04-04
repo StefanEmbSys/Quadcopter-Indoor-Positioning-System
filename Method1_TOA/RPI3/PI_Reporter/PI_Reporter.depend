@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1539674845 source:/home/pi/Documents/embSysProject/PI_TESTSTUB_ZMQ/main.c
+	<stdio.h>
+	<string.h>
+	<errno.h>
+	<wiringPi.h>
+	<wiringSerial.h>
+	<zmq.h>
+	<assert.h>
+

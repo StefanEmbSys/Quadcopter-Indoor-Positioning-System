@@ -1,0 +1,30 @@
+File description:
+The below trees visualize where instances from classes are created to visualize 
+the ATLAS C++ SW-Structure and to give an understanding of dependencies between the 
+modules.
+
+--------------------------------------------------------------------------------------------
+
+	atlas_scr::main.cpp
+
+		> Creation of instance from class Config --> atlas_scr::config
+			
+		> Creation of instance from class Parser --> atlas_scr::parser
+				>> Creation of instance from class Protocol --> protocol::protocol					
+						>>> Creation of instance from class Serial --> serial::serial
+		
+		> Creation of instance from class ClockCorrection --> atlas_scr::parser			
+				>> Creation of instance from class ClockModel --> atlas_scr::parser
+			
+		> Creation of instance from class Logger --> atlas_scr::logger
+			
+		> Creation of instance from class Reporter --> atlas_scr::reporter			
+				>> Creation of instance from class Serial --> serial::serial
+
+		> Creation of instance from class PositionerTDOA --> atlas_scr::tdoa
+			
+---------------------------------------------------------------------------------------------		
+	
+	nodeconf_src::main.cpp
+		> Creation of instance from class Protocol --> protocol::protocol		
+				>> Creation of instance from class Serial --> serial::serial
